@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+import fnmatch, os
+
+def find(pattern, startdir, skipdir):
+    matches = []
+    os.path.walk(startdir, findvisitor, (matches, pattern, skipdir))
+    matches.sort()
+    return matches
+
+
+def findvisitor((matches, pattern, skipdir), thisdir, nameshere):
+    for name in nameshere:
+        if name != skipdir and fnmatch.fnmatch(name, pattern):
+            fullpath = os.path.join(thisdir, name)
+            matches.append(fullpath)
+
+if __name__ == '__main__':
+    import sys 
+    from contextlib import closing
+    errorMsge = 'File name pattern is required'
+    assert len(sys.argv) > 1, errorMsge
+
+    startdir = sys.argv[2] if len(sys.argv) > 2 else os.curdir
+    skipdir = sys.argv[3] if len(sys.argv) > 3 else None
+
+    saveto = '/tmp/ff_%s_results' % sys.argv[1]
+
+    with closing(open(saveto, 'w')) as f:
+        for name in find(sys.argv[1], startdir, skipdir): 
+            print >> f, os.path.abspath(name)
+
+    print 'saved to %s' % saveto 
+    os.system('vi %s' % saveto)
+

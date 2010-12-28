@@ -1,0 +1,2 @@
+#!/bin/sh
+find ${file:=$2} -type f \! -regex ".*/.*\.svn.*" -exec grep -Hn $1 {} \; > /tmp/$1 ; vim /tmp/$1

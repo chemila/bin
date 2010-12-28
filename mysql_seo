@@ -1,0 +1,2 @@
+#!/bin/sh
+mysql -h10.210.141.125 -uroot -p seo

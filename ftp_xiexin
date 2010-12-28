@@ -1,0 +1,4 @@
+#!/bin/sh
+#user: lancha
+#passwd: 96456D849920bb
+ftp 60.191.254.77 

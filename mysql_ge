@@ -1,0 +1,2 @@
+#!/bin/sh
+mysql -h10.207.11.103 -uroot -p baiduleju

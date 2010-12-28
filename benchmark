@@ -1,0 +1,3 @@
+#!/bin/sh
+sysbench --test=oltp --oltp-table-size=10000 --mysql-db=test --mysql-user=root --mysql-password=root run
+sysbench --batch --batch-delay=7 --test=threads run
