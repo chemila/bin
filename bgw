@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T04:09:47.818Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="B4whlrbYx3ov-q_mP_0D" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T04:10:47.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="SnOtZP6uxzoaINs6WfL7" version="14.9.0" type="github">
   <diagram id="QXlYRAQpgNM-e07WMkJa" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="1">
       <root>
@@ -21,36 +21,6 @@
         </mxCell>
         <mxCell id="H53dqP96Nyxa8oyy7z5r-204" value="subscribe &amp;amp; notify" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-176">
           <mxGeometry x="138" y="298" width="118" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-23" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="57" y="88" width="590" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry width="590" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-2" value="过滤器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="44" y="59" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-3" value="负载均衡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="174" y="59" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-4" value="泛化调用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="304" y="59" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-5" value="用户鉴权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="434" y="59" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-6" value="服务发现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="44" y="149" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-7" value="配置中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="174" y="149" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-8" value="路由解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="304" y="149" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H53dqP96Nyxa8oyy7z5r-21" value="web console" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H53dqP96Nyxa8oyy7z5r-23">
-          <mxGeometry x="434" y="149" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H53dqP96Nyxa8oyy7z5r-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="489" y="798" width="145" height="258" as="geometry" />
